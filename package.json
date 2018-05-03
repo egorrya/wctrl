@@ -1,5 +1,5 @@
 {
-  "name": "quiz",
+  "name": "wctrl",
   "version": "0.1.0",
   "description": "",
   "main": "gulpfile.js",
@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/faynco/quiz.git"
+    "url": "git+https://github.com/faynco/wctrl.git"
   },
-  "author": "Egor Rya",
+  "author": "Egor Ryabysh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/faynco/quiz/issues"
+    "url": "https://github.com/faynco/wctrl/issues"
   },
-  "homepage": "https://github.com/faynco/quiz#readme"
+  "homepage": "https://github.com/faynco/wctrl#readme"
 }
