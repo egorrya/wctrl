@@ -22,23 +22,35 @@
 <!-- <script src="assets/libs/animate-css.js"></script> -->
 </head>
 <body>
-	<div class="">
-		<div class="">
-			<h1>Индекс массы тела</h1>
-			<p>Тут формула ок да, потом оформлю по красоте </p>
-			<div class="">
-				<form>
-					<input id="height" type="number" maxlength="5" placeholder="height" class="">
+	<div class="wctrl">
+		<h1>Контроль массы тела</h1>
+		<h2>Для того, чтобы быть здоровым и жить дольше, людям необходимо следить за своим весом. Этот калькулятор поможет вам в этом.</h2>
+		<form>
+			<span class="input input--shoko">
+				<input class="input__field input__field--shoko" type="text" id="height" />
+				<label class="input__label input__label--shoko" for="weight">
+					<span class="input__label-content input__label-content--shoko">Рост</span>
+				</label>
+				<svg class="graphic graphic--shoko" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+					<path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+					<path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"/>
+				</svg>
+			</span>
 
-					<span class="">x</span>
+			<span class="input input--shoko">
+				<input class="input__field input__field--shoko" type="text" id="weight" />
+				<label class="input__label input__label--shoko" for="weight">
+					<span class="input__label-content input__label-content--shoko">Вес</span>
+				</label>
+				<svg class="graphic graphic--shoko" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+					<path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+					<path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"/>
+				</svg>
+			</span>
 
-					<input id="weight" type="number" maxlength="5" placeholder="weight" class="">
-
-					<input id="btn" type="submit" value="Calculate" class="btn btn-primary">
-				</form>
-				<div id="calculation" class=""></div>
-			</div>
-		</div>
+			<input id="btn" type="submit" value="Calculate" class="button button1">
+		</form>
+		<div id="calculation" class=""></div>
 	</div>
 
 
