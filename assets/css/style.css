@@ -482,14 +482,13 @@ body {
   color: #222;
 }
 .wctrl .calculation {
-  margin: 30px 0 40px;
+  margin: 30px 0 10px;
   font-size: 1.4rem;
 }
 .wctrl .quiz__me {
   display: block;
   font-family: 'PMRegular';
   font-size: 1rem;
-  margin-top: 50px;
   margin-bottom: 60px;
   animation-duration: 2.5s;
   color: #222;
@@ -690,7 +689,7 @@ body {
   }
 
   .wctrl .quiz__me {
-    margin-top: 100px;
+    display: inline-block;
     margin-bottom: 85px;
   }
 
