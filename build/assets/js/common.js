@@ -10,9 +10,9 @@ var calcuation = function() {
         e.preventDefault();
         output = ((Math.round(w.value) / ((Math.round(h.value) / 100) * (Math.round(h.value) / 100)))).toFixed(2);
         if (output > 0) {
-            ans.innerHTML = output + "%";
+            ans.innerHTML ="Ваш ИМТ составляет " + output;
         } else {
-            ans.innerHTML = "Invalid dimensions";
+            ans.innerHTML = "Вы ввели что-то не то";
         }
     });
 }();
